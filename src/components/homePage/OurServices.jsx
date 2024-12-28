@@ -5,8 +5,8 @@ import React from "react";
 const OurServices = () => {
   return (
     <div>
-      <section className="w-full py-[82px] px-4 sm:py-[100px] sm:px-16 bg-gray-50">
-        <div className="max-w-[1440px] mx-auto px-4">
+      <section className="w-full  bg-gray-50">
+        <div className="max-w-[1440px] mx-auto py-[82px] px-4 sm:py-[100px] sm:px-16">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Our Services</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">

@@ -11,94 +11,94 @@ const Partners = () => {
         </p>
         <div>
           <Marquee pauseOnHover={true}>
-            <div className="h-[100px] w-[140px] mx-6 flex justify-center items-center">
+            <div className=" w-[140px] mx-6 flex justify-center items-center">
               <Image
                 src="https://www.wegro.global/Partners/lalteerseed.png"
                 alt="img"
                 width={140}
-                height={120}
+                height={90}
                 className="mx-6 bg-contain "
               />
             </div>
            
-            <div className="h-[100px] w-[140px] mx-6 flex justify-center items-center">
+            <div className=" w-[140px] mx-6 flex justify-center items-center">
               <Image
                 src="https://www.wegro.global/Partners/bracseed.png"
                 alt="img"
                 width={140}
-                height={120}
+                height={90}
                 className="mx-6 bg-contain "
               />
             </div>
-            <div className="h-[100px] w-[140px] mx-6 flex justify-center items-center">
+            <div className=" w-[140px] mx-6 flex justify-center items-center">
               <Image
                 src="https://www.wegro.global/Partners/petrochem.png"
                 alt="img"
                 width={140}
-                height={120}
+                height={90}
                 className="mx-6 bg-contain "
               />
             </div>
-            <div className="h-[100px] w-[140px] mx-6 flex justify-center items-center">
+            <div className=" w-[140px] mx-6 flex justify-center items-center">
               <Image
                 src="https://www.wegro.global/Partners/syngenta.png"
                 alt="img"
                 width={140}
-                height={120}
+                height={90}
                 className="mx-6 bg-contain "
               />
             </div>
-            <div className="h-[100px] w-[140px] mx-6 flex justify-center items-center">
+            <div className=" w-[140px] mx-6 flex justify-center items-center">
               <Image
                 src="https://www.wegro.global/Partners/supreme.png"
                 alt="img"
                 width={140}
-                height={120}
+                height={90}
                 className="mx-6 bg-contain "
               />
             </div>
-            <div className="h-[100px] w-[140px] mx-6 flex justify-center items-center">
+            <div className=" w-[140px] mx-6 flex justify-center items-center">
               <Image
                 src="https://www.wegro.global/Partners/ide.png"
                 alt="img"
                 width={140}
-                height={120}
+                height={90}
                 className="mx-6 bg-contain "
               />
             </div>
-            <div className="h-[100px] w-[140px] mx-6 flex justify-center items-center">
+            <div className=" w-[140px] mx-6 flex justify-center items-center">
               <Image
                 src="https://www.wegro.global/Partners/polygon.png"
                 alt="img"
                 width={140}
-                height={120}
+                height={90}
                 className="mx-6 bg-contain "
               />
             </div>
-            <div className="h-[100px] w-[140px] mx-6 flex justify-center items-center">
+            <div className=" w-[140px] mx-6 flex justify-center items-center">
               <Image
                 src="https://www.wegro.global/Partners/bini.png"
                 alt="img"
                 width={140}
-                height={120}
+                height={90}
                 className="mx-6 bg-contain "
               />
             </div>
-            <div className="h-[100px] w-[140px] mx-6 flex justify-center items-center">
+            <div className=" w-[140px] mx-6 flex justify-center items-center">
               <Image
                 src="https://www.wegro.global/Partners/basis.png"
                 alt="img"
                 width={140}
-                height={120}
+                height={90}
                 className="mx-6 bg-contain "
               />
             </div>
-            <div className="h-[100px] w-[140px] mx-6 flex justify-center items-center">
+            <div className=" w-[140px] mx-6 flex justify-center items-center">
               <Image
                 src="https://www.wegro.global/Partners/undp.png"
                 alt="img"
                 width={140}
-                height={120}
+                height={90}
                 className="mx-6 bg-contain "
               />
             </div>

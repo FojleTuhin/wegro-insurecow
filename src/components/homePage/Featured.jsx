@@ -77,7 +77,7 @@ const Featured = () => {
             </div>
             <div className="h-[100px] w-[140px] mx-6 flex justify-center items-center">
               <Image
-                src="https://www.wegro.global/Home/news1.pngpng"
+                src="https://www.wegro.global/Home/news1.png"
                 alt="img"
                 width={140}
                 height={120}

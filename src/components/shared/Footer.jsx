@@ -3,7 +3,6 @@ import Link from "next/link";
 import { FaSquareWhatsapp } from "react-icons/fa6";
 import { IoLogoWhatsapp } from "react-icons/io5";
 
-
 import {
   Facebook,
   Linkedin,
@@ -334,7 +333,7 @@ const Footer = () => {
               {/* Mobile App Download */}
               <div className="mt-8">
                 <p className="text-gray-600 mb-4">
-                  Download the Bimafy Mobile App
+                  Download the Insurecow Mobile App
                 </p>
                 <div className="flex gap-4">
                   <Link href="#">
@@ -362,7 +361,12 @@ const Footer = () => {
           <div className="border-t border-gray-200 pt-8 mb-8">
             <p className="text-gray-600 mb-4">Payment Channels</p>
             <div className="flex flex-wrap gap-4 items-center">
-              <Image src='https://bimafy.com/images/frontend/v2/footer/sslcommerz.png' alt="img" width={1480} height={60}/>
+              <Image
+                src="https://bimafy.com/images/frontend/v2/footer/sslcommerz.png"
+                alt="img"
+                width={1480}
+                height={60}
+              />
             </div>
           </div>
 
@@ -372,14 +376,19 @@ const Footer = () => {
           </div>
 
           {/* WhatsApp Float Button */}
-          <Link
+          <div
             href="#"
-            className="fixed bottom-8 right-8 bg-green-500 text-white  rounded-full shadow-lg hover:bg-green-600 transition-colors"
+            className="fixed bottom-8 h-10 w-10 flex justify-center items-center z-10 right-8 bg-black text-white  rounded-full shadow-lg hover:bg-green-600 transition-colors"
             aria-label="Chat on WhatsApp"
           >
-           <IoLogoWhatsapp size={50} color="white"/>          
-
-          </Link>
+            {/* <IoLogoWhatsapp size={50} color="white"/>           */}
+            <Image
+              src="https://www.wegro.global/chat-icon.png"
+              alt="logo"
+              height={20}
+              width={20}
+            />
+          </div>
         </div>
       </footer>
     </div>

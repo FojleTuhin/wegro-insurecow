@@ -6,6 +6,8 @@ import Subscribe from "./Subscribe";
 import Award from "./Award";
 import Partners from "./Partners";
 import Featured from "./Featured";
+import Faq from "./Faq";
+import Testimonials from "./Testimonial";
 
 const HomePage = () => {
   return (
@@ -14,10 +16,12 @@ const HomePage = () => {
       <Hero />
       <OurServices />
       <div className="bg-[#E7EBED] pb-10">
-        <Award/>
-        <Partners/>
-        <Featured/>
+        <Award />
+        <Partners />
+        <Featured />
       </div>
+      <Testimonials/>
+      {/* <Faq /> */}
       <Subscribe />
     </div>
   );

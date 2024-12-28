@@ -43,7 +43,7 @@ const Hero = () => {
           </div>
 
           {/* Mobile/Tablet Content - Below Image */}
-          <div className="lg:hidden px-4 py-8 bg-white">
+          <div className="lg:hidden px-4  bg-white">
             <div className="max-w-[980px] mx-auto space-y-6">
               <h1 className="text-3xl md:text-4xl font-bold">
                 What Sets WeGro Apart
@@ -53,10 +53,7 @@ const Hero = () => {
                 how the loan is disbursed, how the returns are shared and how
                 the risk is priced and managed.
               </p>
-              <button
-                variant="outline"
-                className="border-2 border-black hover:bg-black hover:text-white transition-colors"
-              >
+              <button className="bg-transparent border-2 px-[21px]  py-[9px] rounded-md border-black text-black hover:bg-black hover:text-white transition-colors">
                 LEARN MORE
               </button>
             </div>
