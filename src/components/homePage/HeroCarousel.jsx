@@ -44,41 +44,38 @@ export function HeroCarousel() {
               />
               <div className="absolute inset-0 bg-black/50" />
               <div className="relative h-full flex flex-col justify-center px-4 md:px-8 lg:px-16 max-w-7xl mx-auto">
-                <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-4">
+                <h1 className="font-semibold text-3xl sm:text-7xl xl:text-[96px] xl:leading-[100px] font-fira text-white">
                   Investing in Agriculture,
                   <br />
                   Simplified
                 </h1>
-                <p className="text-lg md:text-xl text-white mb-8 max-w-2xl">
+                <p className="text-base md:text-xl xl:text-2xl font-semibold mt-4 md:mt-6 text-white">
                   We seek to improve the lives of 10 Million farmers in Bangladesh.
                   <br />
                   Download the WeGro App and join us on our journey.
                 </p>
 
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-8">
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 my-8">
                   {stats.map((stat, index) => (
                     <div key={index} className="text-white">
-                      <div className="text-2xl md:text-3xl font-bold mb-2">
+                      <div className="counter text-[32px] md:text-[36px] leading-[43px] font-medium  flex flex-row font-fira">
                         {stat.value}
                       </div>
-                      <div className="text-sm md:text-base opacity-80">
+                      <div className="text-sm md:text-base font-semibold opacity-80">
                         {stat.label}
                       </div>
                     </div>
                   ))}
                 </div>
 
-                <div className="flex flex-wrap gap-4">
+                <div className="flex flex-wrap gap-4 mt-10">
                   <button
-                    size="lg"
-                    className="bg-orange-500 hover:bg-orange-600 text-white"
+                    className="bg-orange-500 hover:bg-orange-600 text-white px-[21px] py-[9px] rounded-md"
                   >
                     DOWNLOAD APP
                   </button>
                   <button
-                    size="lg"
-                    variant="outline"
-                    className="text-white border-white hover:bg-white hover:text-black"
+                    className="text-white border-white border hover:bg-white hover:text-black px-[21px] py-[9px] rounded-md"
                   >
                     LEARN MORE
                   </button>
