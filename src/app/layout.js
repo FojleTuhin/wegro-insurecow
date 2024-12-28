@@ -1,6 +1,7 @@
 import Footer from "@/components/shared/Footer";
 import "./globals.css";
 import { Urbanist } from "next/font/google";
+import { Navbar } from "@/components/shared/Navbar";
 // If loading a variable font, you don't need to specify the font weight
 const urbanist = Urbanist({
   subsets: ["latin"],
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
 
       <body className={urbanist.className}>
         <main>
+          <Navbar />
           {children}
           <Footer />
         </main>

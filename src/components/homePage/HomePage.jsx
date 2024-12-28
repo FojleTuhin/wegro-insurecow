@@ -8,10 +8,12 @@ import Partners from "./Partners";
 import Featured from "./Featured";
 import Faq from "./Faq";
 import Testimonials from "./Testimonial";
+import { HeroCarousel } from "./HeroCarousel";
 
 const HomePage = () => {
   return (
     <div>
+      <HeroCarousel />
       <WhyInvest />
       <Hero />
       <OurServices />
@@ -20,7 +22,7 @@ const HomePage = () => {
         <Partners />
         <Featured />
       </div>
-      <Testimonials/>
+      <Testimonials />
       {/* <Faq /> */}
       <Subscribe />
     </div>
