@@ -15,9 +15,9 @@ const menuItems = [
     href: "/products",
     submenu: true,
     subItems: [
-      { name: "Product 1", href: "/products/1" },
-      { name: "Product 2", href: "/products/2" },
-      { name: "Product 3", href: "/products/3" },
+      { name: "Product 1", href: "/" },
+      { name: "Product 2", href: "/" },
+      { name: "Product 3", href: "/" },
     ],
   },
   { name: "IMPACT", href: "/impact" },
@@ -26,10 +26,10 @@ const menuItems = [
     href: "/about",
     submenu: true,
     subItems: [
-      { name: "WHO WE ARE", href: "/about/who-we-are" },
-      { name: "OUR PARTNERS", href: "/about/partners" },
-      { name: "BLOGS", href: "/about/blogs" },
-      { name: "CAREER", href: "/about/career" },
+      { name: "WHO WE ARE", href: "/" },
+      { name: "OUR PARTNERS", href: "/" },
+      { name: "BLOGS", href: "/" },
+      { name: "CAREER", href: "/" },
     ],
   },
 ];
@@ -131,10 +131,7 @@ export function Navbar() {
               ))}
 
               {/* Schedule Meeting Button */}
-              <button
-                className="mt-20 bg-white text-black px-8 py-3 rounded-md hover:bg-orange-400 hover:text-white transition-colors"
-                
-              >
+              <button className="mt-20 bg-white text-black px-8 py-3 rounded-md hover:bg-orange-400 hover:text-white transition-colors">
                 Schedule Meeting
               </button>
             </div>
