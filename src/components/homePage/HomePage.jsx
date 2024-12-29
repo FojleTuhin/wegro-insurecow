@@ -10,6 +10,7 @@ import Faq from "./Faq";
 import Testimonials from "./Testimonial";
 import { HeroCarousel } from "./HeroCarousel";
 import WhyInvestWithUs from "./WhyInvestWithUs";
+// import ExclusiveProject from "./ExclusiveProject";
 
 const HomePage = () => {
   return (
@@ -17,7 +18,8 @@ const HomePage = () => {
       <HeroCarousel />
       <WhyInvest />
       <Hero />
-      <WhyInvestWithUs/>
+      <WhyInvestWithUs />
+      {/* <ExclusiveProject /> */}
       <OurServices />
       <div className="bg-[#E7EBED] pb-10">
         <Award />
