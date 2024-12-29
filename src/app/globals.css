@@ -13,3 +13,7 @@
     --foreground: #ededed;
   }
 }
+.slider-custom .slick-slide {
+  padding: 0 8px; /* Adjust horizontal gap */
+  margin-top: 40px;
+}

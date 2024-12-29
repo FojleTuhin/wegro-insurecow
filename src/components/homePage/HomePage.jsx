@@ -9,6 +9,7 @@ import Featured from "./Featured";
 import Faq from "./Faq";
 import Testimonials from "./Testimonial";
 import { HeroCarousel } from "./HeroCarousel";
+import WhyInvestWithUs from "./WhyInvestWithUs";
 
 const HomePage = () => {
   return (
@@ -16,6 +17,7 @@ const HomePage = () => {
       <HeroCarousel />
       <WhyInvest />
       <Hero />
+      <WhyInvestWithUs/>
       <OurServices />
       <div className="bg-[#E7EBED] pb-10">
         <Award />

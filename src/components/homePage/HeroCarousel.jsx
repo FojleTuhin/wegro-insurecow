@@ -30,7 +30,7 @@ export function HeroCarousel() {
   }, [emblaApi]);
 
   return (
-    <div className="relative min-h-screen">
+    <div className="relative h-screen">
       <div className="overflow-hidden h-full" ref={emblaRef}>
         <div className="flex h-full">
           {carouselImages.map((src, index) => (
